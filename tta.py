@@ -66,8 +66,8 @@ def merge_predictions(prediction_folders, output_folder, weights):
 
 
 # 使用示例
-prediction_folders = ['/home/pod/shared-nvme/AI4VA/results/MDS_test_trained200_2_1e-4_40', '/home/pod/shared-nvme/AI4VA/results/MDS_test_trained200_0.6_2_1e-4_40', '/home/pod/shared-nvme/AI4VA/results/SUM_newK5_heibai_gaosi_31', '/home/pod/shared-nvme/AI4VA/results/2e_test']  # 显著性图像的文件夹列表
+prediction_folders = ['/home/pod/shared-nvme/AI4VA/results/MDS_test_trained200_0.5_2_1e-4_40', '/home/pod/shared-nvme/AI4VA/results/MDS_test_trained200_0.6_2_1e-4_40', '/home/pod/shared-nvme/AI4VA/results/SUM_newK5_heibai_gaosi_31', '/home/pod/shared-nvme/AI4VA/results/2e_test']  # 显著性图像的文件夹列表
 output_folder = '/home/pod/shared-nvme/AI4VA/results/2MDS_mixSUMk5IIE'  # 融合结果保存的文件夹
-weights = [0.35, 0.35, 0.15, 0.15]  # 每个路径对应的权重，确保总和为1
+weights = [0.4, 0.45, 0.1, 0.05]  # 每个路径对应的权重，确保总和为1
 
 merge_predictions(prediction_folders, output_folder, weights)
