@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="pod@36.103.203.203:37429" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="L20">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="pod@36.103.203.203:37429">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/shared-nvme/AI4VA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.bjc1.seetacloud.com:39975">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.bjc1.seetacloud.com:39975 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
