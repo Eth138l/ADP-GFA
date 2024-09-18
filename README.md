@@ -131,7 +131,7 @@ After completing the previous steps, please check whether your `results` folder 
 results
     |- MDS_test_trained200_2_0.5_1e-4_40
     |- MDS_test_trained200_2_0.6_1e-4_40
-    |- SUM_newK5_heibai_gaosi_31
+    |- SUM_newK5_gaosi
     |- 2e_test_1622
 ```
 If your file structure meets the requirements, run the following code to perform model fusion:
