@@ -7,7 +7,7 @@ This project requires two different virtual environments. Please follow the inst
 ### Clone Repo
 
    ```bash
-   git clone https://github.com/Eth138l/ADP-GFA.git
+   git clone --depth 1 https://github.com/Eth138l/ADP-GFA.git
    ```
 
 ## Usage of DeepGaze IIE and MDS-ViTNet
