@@ -21,10 +21,13 @@ To perform inference with DeepGaze IIE and to train and perform inference with M
 Create Conda Environment and Install Dependencies
 
    ```bash
-   conda create --name py38 --file environment_mds2e.yml
-   ```
+   # create new anaconda env
+   conda create -n py38 python=3.8 -y
+   conda activate py38
 
-- Note: The above command will install `python==3.8.19` and `cuda==11.7`.
+   # install python dependencies
+   pip install -r requirements.txt
+   ```
 
 ### Datasets Preparation
 The dataset can be downloaded from [this link](https://drive.google.com/drive/folders/1SRtf8zH_u90cQeT2GgOCUBGcrMk2BUJt?usp=sharing). Please place it in the `data_mds2e` folder and confirm the file structure as follows:
