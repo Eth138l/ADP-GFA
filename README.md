@@ -9,6 +9,10 @@ This project requires two different virtual environments. Please follow the inst
    ```bash
    git clone --depth 1 https://github.com/Eth138l/ADP-GFA.git
    ```
+If you encounter the following error: `error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)`, you can try increasing the Git buffer size with the following command, then retry `git clone`:
+   ```bash
+   git config --global http.postBuffer 524288000
+   ```
 
 ## Usage of DeepGaze IIE and MDS-ViTNet
 To perform inference with DeepGaze IIE and to train and perform inference with MDS-ViTNet, follow these steps:
