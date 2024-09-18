@@ -77,7 +77,23 @@ python train.py --p 0.5 --path_to_save ./checkpoints
 ## Usage of SUM
 To train and perform inference with SUM, follow these steps:
 
-### Todo
+### Setting Up Virtual Environment py310
+Todo
+
+### Pre-trained Weights
+Todo
+
+## Inference
+Todo
+
+### Parameters:
+Todo
+
+## Training
+Todo
+
+### Parameters:
+Todo
 
 ## Model Fusion
 After completing the previous steps, please check whether your `results` folder has the following structure：
@@ -93,3 +109,6 @@ If your file structure meets the requirements, run the following code to perform
 python tta.py
 ```
 All variables are preset with `default` and should **not** be altered. Upon successful execution, the results will be saved in the `ADP-GFA/results/2MDS_mixSUMk5IIE` directory, which is our final submission.
+
+## Acknowledgment
+We would like to thank the authors and contributors of [MDS-ViTNet](https://github.com/ignatpolezhaev/mds-vitnet), [SUM](https://github.com/Arhosseini77/SUM), and [DeepGaze](https://github.com/matthias-k/DeepGaze) for their open-sourced code which significantly aided this project.
