@@ -23,7 +23,7 @@ Create Conda Environment and Install Dependencies
 - Note: The above command will install `python==3.8.19` and `cuda==11.7`.
 
 ### Datasets Preparation
-The AI4VA dataset has been placed in this section of the `data_mds2e` folder. Please confirm the file structure as follows:
+The dataset for the current step is located in the `data_mds2e` folder. Please confirm the file structure as follows:
 ```
 ADP-GFA
     |- data_mds2e
@@ -92,7 +92,7 @@ To train and perform inference with SUM, follow these steps:
 Todo
 
 ### Datasets Preparation
-The AI4VA dataset has been placed in this section of the `Todo` folder. Please confirm the file structure as follows:
+The dataset for the current step is located in the `Todo` folder. Please confirm the file structure as follows:
 ```
 Todo
 ```
