@@ -26,7 +26,7 @@ The `deepgaze2e.pth` file will be automatically downloaded when the code runs.
 
 If you encounter network issues, you can download it from [this link](https://github.com/matthias-k/DeepGaze/releases/download/v1.0.0/deepgaze2e.pth) and move it to the specified directory as indicated in the error message.
 
-The pre-trained model for MDS-ViTNet should be downloaded from [Google Drive](https://drive.google.com/drive/folders/10tZL7oNfaRkBHHTeqjog0ZIJacrr2Ya0?usp=sharing) and placed in the following structure:
+The pre-trained model for MDS-ViTNet should be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cTK1J2bNibmzCqoy_dNqPh04GHQYmsKF?usp=drive_link) and placed in the following structure:
 ```
 MDS-ViTNet
     |- checkpoints
