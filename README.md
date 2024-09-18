@@ -21,7 +21,7 @@ To perform inference with DeepGaze IIE and to train and perform inference with M
 Create Conda Environment and Install Dependencies
 
    ```bash
-   conda create --name py38 --file environment_2e_mds.yml
+   conda create --name py38 --file environment_mds2e.yml
    ```
 
 - Note: The above command will install `python==3.8.19` and `cuda==11.7`.
