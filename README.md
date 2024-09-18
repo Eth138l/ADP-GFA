@@ -4,22 +4,33 @@ The winning solution of the ECCV 2024 AI for Visual Arts Saliency Estimation Cha
 ## Note
 This project requires two different virtual environments. Please follow the instructions to ensure the code runs smoothly.
 
-## Usage of DeepGaze IIE and MDS-ViTNet
-To perform inference with DeepGaze IIE and to train and perform inference with MDS-ViTNet, follow these steps:
-
-### Setting Up Virtual Environment py38
-1. Clone Repo
+### Clone Repo
 
    ```bash
    git clone https://github.com/Eth138l/Midsen.git
    ```
-2. Create Conda Environment and Install Dependencies
+
+## Usage of DeepGaze IIE and MDS-ViTNet
+To perform inference with DeepGaze IIE and to train and perform inference with MDS-ViTNet, follow these steps:
+
+### Setting Up Virtual Environment py38
+Create Conda Environment and Install Dependencies
 
    ```bash
    conda create --name py38 --file environment_2e_mds.yml
    ```
 
 - Note: The above command will install `python==3.8.19` and `cuda==11.7`.
+
+### Datasets Preparation
+The AI4VA dataset has been placed in this section of the `data_mds2e` folder. Please confirm the file structure as follows:
+```
+ADP-GFA
+    |- data_mds2e
+    |- DeepGaze
+    |- MDS-ViTNet
+    |- results
+```
 
 ### Pre-trained Weights
 The `deepgaze2e.pth` file will be automatically downloaded when the code runs. 
@@ -79,6 +90,12 @@ To train and perform inference with SUM, follow these steps:
 
 ### Setting Up Virtual Environment py310
 Todo
+
+### Datasets Preparation
+The AI4VA dataset has been placed in this section of the `Todo` folder. Please confirm the file structure as follows:
+```
+Todo
+```
 
 ### Pre-trained Weights
 Todo
