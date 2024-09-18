@@ -61,7 +61,7 @@ MDS-ViTNet
   
 To perform inference with DeepGaze IIE, use the following command:
 ```bash
-python 2e_inference.py --images_path ../data/images/test/ --results_path ../results/2e_test_1622 --target_size 1600 2200
+python 2e_inference.py --images_path ../data_mds2e/images/test/ --results_path ../results/2e_test_1622 --target_size 1600 2200
 ```
 
 ### Parameters:
@@ -71,8 +71,8 @@ python 2e_inference.py --images_path ../data/images/test/ --results_path ../resu
 
 To perform inference with MDS-ViTNet, use the following command:
 ```bash
-python inference.py --img_path ../data/images/test/ --output_dir ../results/MDS_test_trained200_2_0.5_1e-4_40 --path_to_ViT_multidecoder ./checkpoints/best_model_200_2_0.5_1e-4_40.pth
-python inference.py --img_path ../data/images/test/ --output_dir ../results/MDS_test_trained200_2_0.6_1e-4_40 --path_to_ViT_multidecoder ./checkpoints/best_model_200_2_0.6_1e-4_40.pth
+python inference.py --img_path ../data_mds2e/images/test/ --output_dir ../results/MDS_test_trained200_2_0.5_1e-4_40 --path_to_ViT_multidecoder ./checkpoints/best_model_200_2_0.5_1e-4_40.pth
+python inference.py --img_path ../data_mds2e/images/test/ --output_dir ../results/MDS_test_trained200_2_0.6_1e-4_40 --path_to_ViT_multidecoder ./checkpoints/best_model_200_2_0.6_1e-4_40.pth
 ```
 - Note: In order to successfully perform model fusion, inference needs to be run using two different pre-trained weight files. Therefore, both of the above lines of code should be executed once.
 
