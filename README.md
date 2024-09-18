@@ -23,10 +23,14 @@ Create Conda Environment and Install Dependencies
 - Note: The above command will install `python==3.8.19` and `cuda==11.7`.
 
 ### Datasets Preparation
-The dataset for the current step is located in the `data_mds2e` folder. Please confirm the file structure as follows:
+The dataset can be downloaded from [this link](https://drive.google.com/drive/folders/1SRtf8zH_u90cQeT2GgOCUBGcrMk2BUJt?usp=sharing). Please place it in the `data_mds2e` folder and confirm the file structure as follows:
 ```
 ADP-GFA
     |- data_mds2e
+       |- images
+       |- maps
+       |- train_id.csv
+       |- val_id.csv
     |- DeepGaze
     |- MDS-ViTNet
     |- results
