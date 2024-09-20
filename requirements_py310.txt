@@ -1,0 +1,12 @@
+scikit-image
+packaging
+causal-conv1d>=1.1.0
+mamba-ssm
+monai
+opencv-python==4.6.0.66
+pandas
+scikit-learn
+matplotlib
+h5py
+yacs
+timm
